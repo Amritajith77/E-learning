@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>E-Learning Website</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+          <div class="logo">
+            <img src="logo.png" alt="logo">
+          </div>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            
+            <li class="services">
+                <a href="/">Services</a>
+      
+                <!-- DROPDOWN MENU -->
+                <ul class="dropdown">
+                  <li><a href="/">Dropdown 1 </a></li>
+                  <li><a href="/">Dropdown 2</a></li>
+                  <li><a href="/">Dropdown 2</a></li>
+                  <li><a href="/">Dropdown 3</a></li>
+                  <li><a href="/">Dropdown 4</a></li>
+                </ul>
+      
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section">
+      <div class="slideshow-container fade">
+
+        <!-- Full images with numbers and message Info -->
+        <div class="Containers">
+          <div class="MessageInfo">1 / 3</div>
+          <img src="./images/E-learn.png" style="width:100%">
+          <button class="btn"><a href="register.html">Register Now</a></button>
+        </div>
+      
+        <div class="Containers">
+          <div class="MessageInfo">2 / 3</div>
+          <img src="./images/Certified Teachers (1).png" style="width:100%">
+        </div>
+      
+        <div class="Containers">
+          <div class="MessageInfo">3 / 3</div>
+          <img src="./images/Regular.png" style="width:100%">
+        </div>
+      
+        <!-- Back and forward buttons -->
+        <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The circles/dots -->
+      <div style="text-align:center">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+      </div> 
+    </div>
+
+      <script src="js/script.js"></script>
+</body>
+</html>
